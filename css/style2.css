@@ -1,0 +1,279 @@
+body {
+  overflow-x: hidden !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 100%;
+  background-image: url(../imgs/test.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+  min-height: 100vh;
+  padding-top: 70px;
+}
+
+.main .content {
+  padding: 20px;
+  background-color: #c3e8f4;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.main .logo {
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  top: -40px;
+  font-family: cursive;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 94% !important;
+  }
+}
+.main .content .qr {
+  text-align: center;
+}
+.main .content .qr img {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+}
+.main .content .steps {
+  font-size: 18px;
+  color: #1a4466;
+  padding: 20px 0 10px 30px;
+}
+.main .content .steps li {
+  margin-bottom: 10px;
+}
+.main .form_Register {
+  display: block;
+}
+.main .form_MRN {
+  padding: 40px 10px 0 0;
+  color: #1a4466;
+}
+.main .form_MRN h2 {
+  font-family: cursive;
+  margin-bottom: 20px;
+}
+.form_Register .form-control,
+.form-doc .form-control {
+  margin-top: 30px;
+  width: 60%;
+}
+@media (max-width: 768px) {
+  .form_Register .form-control,
+  .form-doc .form-control {
+    width: 100%;
+  }
+}
+.main .form_MRN .btn {
+  background-color: #1a4466;
+  color: #fff;
+  font-size: 19px;
+  font-weight: bold;
+  width: 60%;
+  margin-top: 15px;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(9, 90, 156, 0.25);
+}
+.form_Register .form-control:focus,
+.form-Generate .form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #095a9c;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(9, 90, 156, 0.25);
+}
+.main .form-Generate {
+  display: none;
+}
+.main .Generate_mrn,
+.main .back,
+.main .doc {
+  font-size: 17px;
+  cursor: pointer;
+  color: #095a9c;
+  transition: 0.2s all ease-in-out;
+  display: block;
+}
+.main .Generate_mrn:hover,
+.main .back:hover,
+.main .doc:hover {
+  text-decoration: underline;
+  color: #1a4466;
+}
+.main .back {
+  display: none;
+}
+.form-check-input:focus {
+  border-color: #095a9c;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(9, 90, 156, 0.25);
+}
+.form-check-input:checked {
+  background-color: #1a4466;
+  border-color: #1a4466;
+}
+.form-Generate .row > div {
+  margin-bottom: 10px;
+}
+.form-Generate h2 {
+  margin-bottom: 10px !important;
+}
+.form-Generate .state > label {
+  font-size: 19px;
+  margin-right: 20px;
+}
+.form-Generate .form-check {
+  display: inline-block !important;
+  margin-right: 20px;
+}
+.bbttnn {
+  text-align: center;
+}
+.bbttnn button {
+  background-color: #1a4466 !important;
+  color: #fff !important;
+}
+.main .form-doc {
+  display: none;
+}
+@media (max-width: 768px) {
+  button {
+    width: 100% !important;
+  }
+}
+
+.layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.alert {
+  position: absolute;
+  width: 400px;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  border: 1px solid #4e687e;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+  padding-top: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #1a4466;
+  padding-bottom: 30px;
+}
+.alert span {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  color: #1a4466;
+}
+.alert button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border-radius: 50%;
+  background-color: #c3e8f4;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 20px;
+  border: none;
+  transition: 0.3s;
+}
+.alert button:hover {
+  background-color: #1a4466;
+  color: #fff;
+}
+.logo img {
+  transform: rotate(270deg);
+  position: absolute;
+  top: -35px;
+  margin-left: 12px;
+  width: 70px;
+  height: 80px;
+}
+
+/* Success Page */
+.success,
+.cancel {
+  height: 100vh;
+}
+.success .img-responsive {
+  width: 100%;
+}
+.cancel .image {
+  background-image: url("../imgs/undraw_Cancel_re_pkdm.png");
+}
+.success .image {
+  background-image: url("../imgs/undraw_Accept_terms_re_lj38.png");
+}
+.success .image,
+.cancel .image {
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.success-content,
+.cancel-content {
+  color: #1a4466;
+  position: relative;
+  height: 100vh;
+}
+.success-content .text,
+.cancel-content .text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.success-content .text h1,
+.cancel-content .text h1 {
+  font-size: 60px;
+  font-family: cursive;
+}
+.cancel-content .text h1 {
+  color: #f00;
+  font-size: 55px;
+}
+.success-content .text p,
+.cancel-content .text p {
+  font-size: 32px;
+  margin-bottom: 36px;
+}
+.success-content .text .back-main,
+.cancel-content .text .back-main {
+  background-color: #1a4466;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 20px;
+  margin-top: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.success-content .text .back-main:hover {
+  background-color: #2f2e41;
+}
+.cancel-content .text .back-main:hover {
+}

@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.visit {
+  width: 100%;
+  background-image: url(../imgs/test.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+  min-height: 100vh;
+  padding-top: 70px;
+}
+.container {
+  background-color: #c3e8f4;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 30%);
+}
+
+.visit .img,
+.check .img {
+  overflow: hidden;
+}
+.check .img {
+  border-radius: 50%;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+}
+.visit img,
+.check img {
+  max-width: 100%;
+}
+
+.visit form {
+  display: inline-block;
+  background-color: #acacac;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 30%);
+}
+
+.visit form input {
+  margin: 10px 0;
+}
+.visit form .dises {
+  margin: 20px 0;
+}
+.visit form .dises input {
+  margin: 0 0;
+  margin-right: 2px;
+  display: inline-block;
+}
+.visit form .dises label {
+  margin-left: 1px;
+  width: 45%;
+  display: inline-block;
+  font-size: 20px;
+}
+.visit form .back-main {
+  background-color: #1a4466;
+  color: #fff;
+  padding: 15px 20px;
+  font-size: 15px;
+  margin-left: 100px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.visit form .back-main:hover {
+  background-color: #2f2e41;
+}
+.visit form .createVisit {
+  border: none;
+  margin-left: 30px;
+}
+/*Check Visit */
+.check {
+  width: 100%;
+  background-image: url(../imgs/test.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+  min-height: 100vh;
+  padding-top: 70px;
+}
+
+.patient {
+  margin: 40px;
+}
+
+.patient .card {
+  margin-bottom: 20px;
+  background-color: #1a4466;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 30%);
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.patient .card img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+
+.patient .card button {
+  background-color: #c3e8f4;
+  color: #000;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: auto;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.patient .card button:hover {
+  background-color: #2f2e41;
+  color: #fff;
+}
